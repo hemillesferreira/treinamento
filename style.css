@@ -136,7 +136,7 @@ header > img {
     width: 200px;
     padding-top: 30px;
 }
-div#adoracao{
+.card{
     background-color: #023535;
     color: white;
     border: 3px solid white;
@@ -148,30 +148,7 @@ div#adoracao{
     border-radius: 10px;
     margin: 50px;
 }
-div#tarefa{
-    background-color: #023535;
-    color: white;
-    border: 3px  solid white;
-    font-family: "Montserrat", serif;
-    width: 250px;
-    height: 300;
-    padding: 30px;
-    display: inline-block;
-    border-radius: 10px;
-    margin: 50px;
-}
-div#empenho{
-    background-color: #023535;
-    color: white;
-    border: 3px  solid white;
-    font-family: "Montserrat", serif;
-    width: 250px;
-    height: 300;
-    padding: 30px;
-    display: inline-block;
-    border-radius: 10px;
-    margin: 50px;
-}
+
 aside{
     background-color: #006558;
     width: 100%;
@@ -187,100 +164,41 @@ nav{
     margin: auto;
     
 }
-div#cx1{
-    background-image: url('imagens/teo.jpg');
-    height: 200px;
-    width:80px;
-    display: inline-block;
+.cx{
+    display:inline-block;
+    height: 300px;
+    width: 100px;
+    padding-top: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    
+}
+div#cx1{
+    background-image: url('imagens/teo.jpg');
 }
 div#cx2{
     background-image: url('imagens/ss.jpg');
-    height: 200px;
-    width: 80px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 div#cx3{
     background-image: url('imagens/macon.jpg');
-    height: 200px;
-    width:80px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-size: cover;
+ 
 }
 div#cx4{
     background-image: url('imagens/dons.jpg');
-    height: 200px;
-    width: 80px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 div#cx5{
     background-image: url('imagens/igualdade.jpg');
-    height: 200px;
-    width: 80px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 div#cx6{
     background-image: url('imagens/oracao.jpg');
-    height: 200px;
-    width: 80px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 div#cx7{
     background-image: url('imagens/pastora.jpg');
-    height: 200px;
-    width: 80px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-size: cover;
+  
 }
 div#cx8{
     background-image: url('imagens/jornal.jpg');
-    height: 200px;
-    width: 80px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-div#cx1:hover{
-    width: 150px;
-    transition: 0.5;
-}
-div#cx2:hover{
-    width: 150px;
-    transition: 0.5;
-}
-div#cx3:hover{
-    width: 150px;
-    transition: 0.5;
-}
-div#cx4:hover{
-    width: 150px;
-    transition: 0.5;
-}
-div#cx5:hover{
-    width: 150px;
-    transition: 0.5;
-}
-div#cx6:hover{
-    width: 150px;
-    transition: 0.5;
-}
-div#cx7:hover{
-    width: 150px;
-    transition: 0.5;
-}
-div#cx8:hover{
-    width: 150px;
-    transition: 0.5;
+
 }
