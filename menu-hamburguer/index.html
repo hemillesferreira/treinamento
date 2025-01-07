@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#">Mais ofertas</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <h1>Teste de Menu Hamburguer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, expedita consequuntur nulla repellat unde repudiandae ad totam dolor sapiente explicabo quisquam reprehenderit perspiciatis hic! Quas iure officiis suscipit aut doloremque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, necessitatibus alias. A cupiditate fugiat, ex voluptate quisquam deleniti ipsam vel cumque placeat? Pariatur mollitia dolorem sed unde ipsam veniam delectus!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, minus itaque? Dolore fugiat facere debitis in commodi tempore, quas officia soluta. Maxime, veritatis adipisci ipsam commodi eos numquam sint qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ipsum sint similique, placeat ex nam ducimus at officiis magni labore dignissimos minima quidem! Quibusdam, veniam voluptates? Adipisci laborum id facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem tempora quam harum minima enim quasi, dicta nisi iusto excepturi quidem alias quia maxime magnam. Illum nostrum inventore eligendi voluptatibus quisquam.</p>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display =='block'){
+                itens.style.display='none'
+            }else{
+                itens.style.display='bloc'
+            }
+        }
+    </script>
+</body>
+</html>
