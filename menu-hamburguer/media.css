@@ -13,7 +13,7 @@
         padding-top: 30px;
         margin-top: 30px;
     }
-    header span{
+    span#burguer{
         display: none;
     }
 }

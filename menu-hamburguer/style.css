@@ -48,6 +48,16 @@ main h1,p{
 main p{
     text-indent: 20px;
 }
+span#burguer{
+    color: #593622;
+    cursor: pointer;
+    
+}
+span#burguer:hover{
+    background-color: #403027;
+    color:#BFA26B;
+
+}
 @media screen {
     menu{
         display: none;
