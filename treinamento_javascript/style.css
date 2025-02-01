@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body{
+    background-color: aquamarine;
+}
+.titulo{
+    color: aliceblue;
+    width: 500px;
+    height: 500px;
+    display: block;
+    background-color: brown;
+}
